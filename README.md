@@ -13,9 +13,9 @@
 
 ### 以上例子为官方demo
 
-## start 启动
+## demo启动步骤
 
-1、npm i
+1、npm install
 
 2、node src/app.js
 
