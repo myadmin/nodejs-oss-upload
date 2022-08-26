@@ -56,7 +56,7 @@ app.get('/getOssAuthorization', function (req, res, next) {
     res.json(response)
 })
 
-let server = app.listen(8080, function () {
+let server = app.listen(80, function () {
     let host = server.address().address
     let port = server.address().port
 
