@@ -24,9 +24,9 @@ app.get('/getOssAuthorization', function (req, res, next) {
     let end = (date + expire)
     let expiration = gmt_iso8601(end)
 
-    let id = '6MKOqxGiGU4AUk44'
-    let key = 'ufu7nS8kS59awNihtjSonMETLI0KLy'
-    let host = 'http://post-test.oss-cn-hangzhou.aliyuncs.com'
+    let id = 'test-id'
+    let key = 'test-key'
+    let host = 'https://test-host.com'
     //文件存储路径
     let dir = 'user-dir/'
 
